@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 1</title>
+    </head>
+    <body>
+        <p>Question No:1</p>
+        <p>The answer is:</p>
+        <script>
+            var d=new Date();
+            date=d.getDay();
+            var day=new Array(7);
+            day[0]="sunday";
+            day[1]="monday";
+            day[2]="tuesday";
+            day[3]="wednesday";
+            day[4]="thursday";
+            day[5]="friday";
+            day[6]="saturday";
+            var today=day[date];
+            document.write("today is :"+" "+today);
+            document.write("<br>");
+            hours=d.getHours();
+            minute=d.getMinutes();
+            second=d.getSeconds();
+            document.write("Time is :"+hours+":"+minute+":"+second);
+            
+            
+        </script>
+        <p id="demo"></p>
+        
+    </body>
+</html>
